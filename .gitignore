@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+*.pyc
+__pycache__/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test-related files
+.pytest_cache/
+
+# Images and data files
+data/images/
+
+# Configuration secrets
+config/api_keys.py
+
+# Other temporary files
+*.swp
+*.tmp
+*.bak
